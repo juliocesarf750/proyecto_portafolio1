@@ -1,0 +1,99 @@
+#SwiperCards {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #8C30F5;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper_div_cards{
+    width: 500px;
+    height: auto;
+   
+   
+    
+
+  }
+  
+  .swiper_div_cards_perfil{
+    display: flex;
+    width: 100%;
+    background: #8C30F5;
+    margin: auto;
+  }
+
+  
+  .swiper_div_cards_perfil_foto{
+    width: 80px;
+    margin-right: 40px;
+    margin-left: 80px;
+    
+    
+  }
+  
+  .swiper_div_cards_mensaje{
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+  }
+  .swiper_div_cards_mensaje h3{
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-top: 10px;
+      font-size: 22px;
+      
+  }
+  .swiper_div_cards_mensaje h6{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    color: #6a6a6a;
+    font-size: 15px;
+}
+
+  .swiper_div_cards_perfil_informacion h6{
+    color: white;
+
+  }
+  .mySwiper{
+    width: 100%;
+  }
+  .swiperSlide{
+    width: 49%;
+  }  
+  
+  
