@@ -258,3 +258,91 @@ padding-top: 30px;
   margin: 10px;
   font-size: 15px;
 }
+
+
+.bloque5{
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 1050px;
+  margin-bottom: 100px; 
+  
+}
+.bloque5_contenedor{
+  background: #000000;
+  max-width: 1150px;
+  margin: auto;
+  height: 770px;
+  
+}
+.bloque5_titulo{
+  max-width: 1150px;
+  height: 150px;
+  background: #000000;
+  padding: 50px;
+  padding-bottom: 150px;
+  color: aliceblue;
+  margin: 0px auto;
+  
+
+  text-align: center;
+  
+}
+
+.bloque5_contenedor_cards{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bloque5_cards{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 6px;
+}
+.bloque5_cards_icono{
+  width: 250px;
+  height: 50px;
+  
+  
+  margin: auto;
+  margin-top: 20px;
+}
+.bloque5_cards_icono img{
+  
+  height: 100%;
+}
+.bloque5_cards_parrafo{
+  width: 250px;
+  height: auto;
+  
+  margin: auto;
+}
+.bloque5_cards_parrafo h1{
+  font-size: 22px;
+  margin-top: 30px;
+}
+.bloque5_cards_parrafo p{
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.bloque5_Boton{
+  height:100px;
+  width: 100%;
+  
+  display: flex;
+}
+
+.bloque5_Boton button{
+  margin: auto;
+  border: solid 1px purple;
+  background: #000000;
+  height: 40px;
+  width: 130px;
+  color: #ffffff;
+}
