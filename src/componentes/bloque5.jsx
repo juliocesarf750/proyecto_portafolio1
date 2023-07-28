@@ -4,11 +4,11 @@ import icono3 from "../img/iconos/icono3.png"
 import icono4 from "../img/iconos/icono4.png"
 import icono5 from "../img/iconos/icono5.png"
 import icono6 from "../img/iconos/icono6.png"
-
+import "../index.css"
 
 export const Bloque5 = () =>{
     return (
-    <div className="bloque5">
+    <div className="bloque5" id="Servicios">
         <div className="bloque5_titulo">
                   
                   <h1>Servicer That connect you to <br/> your users</h1>

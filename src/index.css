@@ -2,10 +2,22 @@
   padding: 0px;
   margin: 0px;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+section[id]{
+  scroll-margin-top: 70px;
+}
+
+
+
 body{
   height: 100vh;
   
 }
+
 
 
 
