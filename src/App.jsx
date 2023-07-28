@@ -3,6 +3,7 @@ import { Bloque2 } from "./componentes/bloque2";
 import { Bloque3 } from "./componentes/bloque3";
 import { Bloque4 } from "./componentes/bloque4";
 import { Bloque5 } from "./componentes/bloque5";
+import { Bloque6 } from "./componentes/bloque6";
 import NavScroll from "./componentes/navbar"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
        <Bloque3/>
        <Bloque4/>
        <Bloque5/>
+       <Bloque6/>
     </div>
     );
 
